@@ -50,3 +50,178 @@ button {
 button:hover {
     background-color: blue;
 }
+
+.actividad3 {
+    background-color: yellow;
+    text-align: center;
+   
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    width:max-content;
+    margin: 0 auto;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.producto h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.producto button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #45a049;
+}
+
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.p-uno {
+    background-color: #ffe0e0;
+    border: 2px solid #ff4c4c;
+}
+
+.p-uno button {
+    background-color: #ff4c4c;
+}
+
+.p-uno button:hover {
+    background-color: #7a0404;
+}
+
+.p-dos {
+    background-color: #e0f7ff;
+    border: 2px solid #4caaff;
+}
+
+.p-dos button {
+    background-color: #4caaff;
+}
+
+.p-dos button:hover {
+    background-color: #043d76;
+}
+
+.p-tres {
+    background-color: #e0ffe4;
+    border: 2px solid #4cff85;
+}
+
+.p-tres button {
+    background-color: #4cff85;
+}
+
+.p-tres button:hover {
+    background-color: #03691d;
+}
+
+.nav-bar {
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    margin: 0 20px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #00ff1a;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 200px;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.submenu a:hover {
+    background-color: blue;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
