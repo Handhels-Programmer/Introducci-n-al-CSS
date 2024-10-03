@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.actividad1 {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    
+}
+
+.preguntas {
+    color: rgb(0, 255, 0);
+}
+
+.photo {
+    width: 300px;
+    height: auto;
+}
+
+.actividad2 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    
+}
+
+.descripcion {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 21px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    transition: background-color 0.9s ease;
+}
+
+button:hover {
+    background-color: blue;
+}
